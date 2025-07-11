@@ -125,24 +125,24 @@ interface Reminder {
 
 ---
 
-## 🧑‍💻 Example Data
+## 🧑‍💻 Example Data (Malaysian)
 
-The app uses mock data for demo purposes. Example contacts, notes, and reminders are preloaded:
+The app uses mock data for demo purposes. Example contacts, notes, and reminders are now based on Malaysian names and contact info:
 
 ```
 // Example Contact
 {
   id: '1',
-  name: 'Sarah Chen',
-  email: 'sarah@example.com',
-  phone: '+1 (555) 123-4567',
+  name: 'Aisyah Binti Ahmad',
+  email: 'aisyah.ahmad@example.my',
+  phone: '+60 12-345 6789',
   lastContact: new Date('2024-01-10'),
   nextReminder: new Date('2024-01-15'),
-  tags: ['friend', 'designer', 'mentor'],
+  tags: ['kawan', 'pereka', 'mentor'],
   notes: [],
   starred: true,
-  metAt: 'Design conference 2023',
-  relationship: 'Close friend & mentor',
+  metAt: 'Persidangan Reka Bentuk 2023',
+  relationship: 'Kawan rapat & mentor',
   sentiment: 'positive'
 }
 
@@ -150,9 +150,9 @@ The app uses mock data for demo purposes. Example contacts, notes, and reminders
 {
   id: '1',
   contactId: '1',
-  content: 'Had a great coffee chat about her new design system work. She mentioned being interested in collaboration opportunities.',
+  content: 'Berbual santai tentang kerja reka bentuk sistem baru beliau. Berminat untuk peluang kerjasama.',
   date: new Date('2024-01-10'),
-  tags: ['coffee', 'collaboration', 'design-systems'],
+  tags: ['kopi', 'kerjasama', 'sistem-reka-bentuk'],
   sentiment: 'positive',
   type: 'meeting'
 }
@@ -161,8 +161,8 @@ The app uses mock data for demo purposes. Example contacts, notes, and reminders
 {
   id: '1',
   contactId: '1',
-  contactName: 'Sarah Chen',
-  message: 'Follow up on collaboration project',
+  contactName: 'Aisyah Binti Ahmad',
+  message: 'Tindak lanjut projek kerjasama',
   date: new Date('2024-01-15'),
   completed: false
 }
